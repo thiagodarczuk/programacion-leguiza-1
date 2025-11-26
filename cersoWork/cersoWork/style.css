@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "bubble";
+    src: url(/homme/bubble.ttf);
+}
+*{
+    color: white;
+    font-family:"bubble" ;
+    font-weight: 100;
+    font-size: 20px;
+}
+a{
+    padding: 4px;
+    background-color: #eee;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+}
+input[type="text"]{
+    color: black;
+}
+input[type="submit"]{
+    padding: 12px 0;
+    width: 200px;
+    background-color: #297ae4;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+    margin-left: 0;
+}
+body{
+    background: linear-gradient(135deg, #3a3a3a, #1d1d1d);
+    min-height: 100vh;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+}
+.resultado h3{
+    font-size: 2rem;
+}
+
+table, td, th{
+    border: 1px solid white;
+}
+h1{
+    font-size: 2rem;
+}
